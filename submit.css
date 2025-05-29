@@ -1,0 +1,31 @@
+* {
+    text-align: center;
+    margin: 0.6%;
+  }
+
+iframe {
+    border-radius: 4px;
+}
+
+body {
+    background-color: #80679e;    
+}
+
+#main-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+        
+}
+
+input {
+    border-radius: 6px;
+    font-size: large;
+}
+  
+::-webkit-input-placeholder {
+    text-align: center;
+  }
+  

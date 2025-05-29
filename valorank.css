@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    
+    justify-content: center;
+    align-items: center;
+
+    background-color: #80679e;
+}
+
+#header {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    
+}
+
+iframe {
+    border-radius: 4px;
+}
+
+#rankrow {
+    display: flex;
+    padding-left: 10px;
+}
+
+#iron {
+    content: url('./assets/iron.png');
+}
+#bronze {
+    content: url('./assets/bronze.png');
+}
+#silver {
+    content: url('./assets/silver.png');
+}
+#gold {
+    content: url('./assets/gold.png');
+}
+#platinum {
+    content: url('./assets/plat.png');
+}
+#diamond {
+    content: url('./assets/dia.png');
+}
+#ascendant {
+    content: url('./assets/asc.png');
+}
+#immortal {
+    content: url('./assets/immo.png');
+}
+#radiant {
+    content: url('./assets/rad.png');
+}
+
+
+
+
+input {
+    margin-top: 30px;
+
+    height: 100px;
+    width: 100px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    transition-duration: 100ms;
+  }
+
+input:hover{
+    cursor: pointer;
+    transform: scale(1.2)
+  }
+input:checked {
+    transform: scale(1.35);
+    box-shadow: 0px 0px 10px rgba(255, 245, 59, 0.75);
+    border-radius:100px;
+  }
+
+
+#submitBtn {
+    border-radius: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    height: 60px;
+    width: 100px;
+
+    transition: 100ms;
+}
+
+#submitBtn:hover {
+    cursor: pointer;
+
+    border-radius: 0;
+    box-shadow: 5px 5px #888888;
+}
+
+a {
+    border-radius: 5px;
+    background-color: antiquewhite;
+    padding: 5px;
+}
